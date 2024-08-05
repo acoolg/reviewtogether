@@ -1,0 +1,281 @@
+/*
+* Noto Sans TC (Chinese_traditional) http://www.google.com/fonts/earlyaccess
+*/
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 100;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 300;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format('opentype');
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 500;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.otf) format('opentype');
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 900;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format('opentype');
+    font-display: fallback;
+}
+
+:root{
+    --main-bg-color: #8a92ff
+}
+
+body {
+    background-color: var(--main-bg-color);
+    margin: 0;
+}
+
+.main-page-navigation {
+    background-color: #5DEBD7;
+    margin: 0;
+    min-height: 43px;
+}
+
+.main-page-navigation a {
+    background-color: #5DEBD7;
+    text-decoration: none;
+    color: #1679AB;
+    margin: 0;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    height: 40px;
+    word-break: keep-all;
+}
+
+.main-page-navigation span {
+    color: #1679AB;
+    font-size: 30px;
+    margin: 0;
+    height: 40px;
+}
+
+.main-page-navigation img {
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 40px;
+    float: left;
+}
+
+.main-page-navigation a:hover {
+    background-color: #4ec6b6;
+    text-decoration: none;
+    color: #1679AB;
+    transition: background-color 0.3s ease-in;
+}
+
+.main-news-bar img {
+    width: 100%;
+    margin: 0;
+}
+
+.main-news-bar {
+    width: 100%;
+    display: flex;
+}
+
+.disable {
+    pointer-events: none;
+}
+
+.main-under-header-article-left {
+    margin: 0;
+    width: 50%;
+    background-color: rgb(22, 50, 124);
+    height: fit-content;
+    color: rgb(45, 89, 205);
+}
+
+.main-under-header-article-right {
+    margin: 0;
+    width: 50%;
+    background-color: rgb(45, 89, 205);
+    color: rgb(22, 50, 124);
+}
+
+.main-under-header-article {
+    display: flex;
+}
+
+.main-under-header-article-left h1 {
+    text-align: center;
+    color: rgb(45, 89, 205);
+}
+
+.main-under-header-article-right h1 {
+    text-align: center;
+    color: rgb(22, 50, 124);
+}
+
+.main-under-header-article-left ol {
+    font-size: 20px;
+    color: rgb(56, 107, 249);
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.main-under-header-article-right ol {
+    font-size: 20px;
+    color: rgb(0, 29, 108);
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.main-under-header-article-right-text {
+    margin-left: 10px;
+}
+
+.main-page-navigation {
+    background-color: #5DEBD7;
+    margin: 0px;
+    min-height: 43px;
+    max-height: 999999999px;
+}
+
+.main-page-navigation a {
+    background-color: #5DEBD7;
+    text-decoration: none;
+    color: #1679AB;
+    margin: 0px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    display: inline;
+    height: 40px;
+    word-break: keep-all;
+}
+
+.main-page-navigation span {
+    color: #1679AB;
+    font-size: 30px;
+    margin: 0px;
+    height: 40px;
+}
+
+.main-page-navigation img {
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 40px;
+    float: left;
+    display: inline-flexbox;
+}
+
+.main-page-navigation a:hover {
+    background-color: #4ec6b6;
+    text-decoration: none;
+    color: #1679AB;
+    transition: background-color 0.3s ease-in;
+}
+
+.main-news-bar img {
+    width: 100%;
+    margin: 0px;
+}
+
+.main-news-bar {
+    width: 100%;
+    display: flex;
+}
+
+.disable {
+    pointer-events: none;
+}
+
+.main-under-header-article-left {
+    margin: 0px;
+    width: 50%;
+    background-color: rgb(22, 50, 124);
+    height: fit-content;
+    color: rgb(45, 89, 205);
+}
+
+.main-under-header-article-right {
+    margin: 0px;
+    width: 50%;
+    background-color: rgb(45, 89, 205);
+    color: rgb(22, 50, 124);
+    height: fit-content;
+}
+
+.main-under-header-article {
+    display: flexbox;
+}
+
+.main-under-header-article-left h1 {
+    text-align: center;
+    color: rgb(45, 89, 205);
+}
+
+.main-under-header-article-right h1 {
+    text-align: center;
+    color: rgb(22, 50, 124);
+}
+
+.main-under-header-article-left ol {
+    font-size: 20px;
+    color: rgb(56, 107, 249);
+    font-family: "Noto Sans TC";
+    font-weight: 600;
+}
+
+.main-under-header-article-right ol {
+    font-size: 20px;
+    color: rgb(0, 29, 108);
+    font-family: "Noto Sans TC";
+    font-weight: 600;
+}
+
+.main-under-header-article-right-text {
+    margin-left: 10px;
+}
+
+.main-intro-article-card {
+    font-family: Noto Sans TC;
+    font-size: 20px;
+    width: 95%;
+    background-color: #1679AB;
+    text-align: center;
+    margin: 2.5%;
+    border-radius: 20px;
+}
